@@ -18,7 +18,7 @@ namespace QFramework
 
             //直接一键做完整个导出流程
             string assetPathNmae = "Assets/QFramework";
-            string fileName = "QFramework_" + DateTime.Now.ToString("yyyyMMdd_HH") + ".unitypackage";
+            string fileName = "QC_QFramework_" + DateTime.Now.ToString("yyyyMMdd_HH") + ".unitypackage";
             AssetDatabase.ExportPackage(assetPathNmae, fileName, ExportPackageOptions.Recurse);
         }
 #endif
